@@ -131,8 +131,6 @@ img {
 
 .nav-link-studio::after {
   position: absolute;
-  top: 100%;
-  right: 100%;
   left: 0;
   width: 48px;
   height: 4px;
@@ -185,6 +183,7 @@ img {
 .button-order-service {
   color: var(--WHITE);
   background-color: var(--IRIS);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
@@ -193,7 +192,6 @@ img {
   cursor: pointer;
   border: none;
   padding: 16px 32px;
-  gap: 10px;
   display: block;
   margin: 0 auto;
   min-width: 169px;
@@ -343,8 +341,6 @@ img {
 }
 
 .our-portfolio-link:hover {
-  border: 1px solid var(--CLOUD);
-  background: var(--WHITE);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -373,7 +369,7 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.product-image:hover .product-overlay {
+.our-portfolio-link:hover .product-overlay {
   transform: translateY(0%);
 }
 
